@@ -1,0 +1,735 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="个人管理,知识管理," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="最近在研究个人管理以及知识管理的体系，根据个人的实际情况，整理出了一套适用于自己的方法论。从知识管理、效率管理，以及配合使用的效率工具、个人管理工具等几个方面分别简单介绍一下。 当然每个人的方法不尽相同，我只是抛砖引玉，希望每个人都可以不断尝试调整，找到最适合自己的方法。">
+<meta name="keywords" content="个人管理,知识管理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的知识管理及个人管理框架体系">
+<meta property="og:url" content="http://yoursite.com/2017/12/06/我的个人知识管理体系/index.html">
+<meta property="og:site_name" content="转啊转">
+<meta property="og:description" content="最近在研究个人管理以及知识管理的体系，根据个人的实际情况，整理出了一套适用于自己的方法论。从知识管理、效率管理，以及配合使用的效率工具、个人管理工具等几个方面分别简单介绍一下。 当然每个人的方法不尽相同，我只是抛砖引玉，希望每个人都可以不断尝试调整，找到最适合自己的方法。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2017/12/06/我的个人知识管理体系/14842353039366.jpg">
+<meta property="og:updated_time" content="2017-01-13T00:31:24.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我的知识管理及个人管理框架体系">
+<meta name="twitter:description" content="最近在研究个人管理以及知识管理的体系，根据个人的实际情况，整理出了一套适用于自己的方法论。从知识管理、效率管理，以及配合使用的效率工具、个人管理工具等几个方面分别简单介绍一下。 当然每个人的方法不尽相同，我只是抛砖引玉，希望每个人都可以不断尝试调整，找到最适合自己的方法。">
+<meta name="twitter:image" content="http://yoursite.com/2017/12/06/我的个人知识管理体系/14842353039366.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/12/06/我的个人知识管理体系/"/>
+
+
+
+
+
+  <title> 我的知识管理及个人管理框架体系 | 转啊转 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">转啊转</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">码代码，做产品，玩音乐</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/06/我的个人知识管理体系/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="转">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="转啊转">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="转啊转" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                我的知识管理及个人管理框架体系
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-06T23:06:44+08:00">
+                2017-12-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/个人管理/" itemprop="url" rel="index">
+                    <span itemprop="name">个人管理</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <a href="/2017/12/06/我的个人知识管理体系/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/12/06/我的个人知识管理体系/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="/2017/12/06/我的个人知识管理体系/14842353039366.jpg" alt=""></p>
+<p>最近在研究个人管理以及知识管理的体系，根据个人的实际情况，整理出了一套适用于自己的方法论。从知识管理、效率管理，以及配合使用的<strong>效率工具</strong>、<strong>个人管理工具</strong>等几个方面分别简单介绍一下。</p>
+<p>当然每个人的方法不尽相同，我只是抛砖引玉，希望每个人都可以不断尝试调整，找到最适合自己的方法。</p>
+<a id="more"></a>
+<h2 id="知识管理"><a href="#知识管理" class="headerlink" title="知识管理"></a>知识管理</h2><p>整体的知识管理流程我总结归纳为<strong>输入</strong>、<strong>处理</strong>、<strong>输出</strong>。不同的流程上，使用不同的效率工具。</p>
+<h3 id="信息来源（Inbox）"><a href="#信息来源（Inbox）" class="headerlink" title="信息来源（Inbox）"></a>信息来源（Inbox）</h3><p>仔细分析我的知识类别及来源，总共有这几个方面：</p>
+<h4 id="1-碎片化信息"><a href="#1-碎片化信息" class="headerlink" title="1. 碎片化信息"></a>1. 碎片化信息</h4><ul>
+<li><p><strong>被动输入信息</strong>：微信公众号、知乎、网页碎片化知识及信息。主要使用<strong>印象笔记处理</strong>，因为跨平台、同步快、而对应不同的渠道，有不同的支持插件，适用于对碎片化信息快速采集。</p>
+</li>
+<li><p><strong>阅读摘抄</strong>：每次阅读的书，通过kindle对文字标注，做笔记，通过<strong>kindle mate</strong>导出。</p>
+</li>
+<li><p><strong>主动输入信息</strong>：突然有了灵感，在备忘录或印象笔记中记录了某几个关键字或感想</p>
+</li>
+</ul>
+<h4 id="2-完整系统学习"><a href="#2-完整系统学习" class="headerlink" title="2. 完整系统学习"></a>2. 完整系统学习</h4><p>比如我要学吉他，我要考CFA等等，围绕一个主题系统化的信息知识，我会使用<strong>onenote</strong>配合<strong>surface pro</strong>处理。因为此类主题学习，都会有很多纸质教材、电子文档参考资料、教师讲义等，利用Onenote的OCR，及PDF标注功能，可以快速将笔记信息电子化整理。</p>
+<h3 id="信息处理（Process）"><a href="#信息处理（Process）" class="headerlink" title="信息处理（Process）"></a>信息处理（Process）</h3><ul>
+<li><p>一般收集到的碎片化信息整理后，按照<strong>二八定律</strong>，通常只有20%的信息是有用的，信息处理也是思考归纳的过程。</p>
+</li>
+<li><p>对于关键词、感想，通过主动搜索丰富内容。</p>
+</li>
+<li><p>信息需要定期（<strong>每天、每周</strong>）按计划进行。</p>
+</li>
+<li><p>处理的信息需要反复观看阅读，体会感悟并加以理解。</p>
+</li>
+</ul>
+<h3 id="知识输出（Output）"><a href="#知识输出（Output）" class="headerlink" title="知识输出（Output）"></a>知识输出（Output）</h3><ul>
+<li>将相同主题的处理信息归纳总结，加入自己的感悟，写成文章，定期回顾。知识管理的目的还是为了<strong>为己所用</strong>。可以将文章发布在知乎、简书等平台，无论活的正向或者反向等反馈，都能让自己总结出各种问题，不断修复，最终提高。</li>
+</ul>
+<h2 id="我的效率工具"><a href="#我的效率工具" class="headerlink" title="我的效率工具"></a>我的效率工具</h2><p>关于有一点前提需要提醒，<strong>不要过度纠结于效率工具</strong>，只要能用且适合自己的就行。在纠结哪个好哪个不好的时候，别人已经学到了很多知识；也不要过度去网上搜寻和比较，都是浪费时间。效率工具只是外因，真正提高自己的工作效率还是得靠内因。不坚持，再好的效率工具也没有用武之地，长期的坚持，就算天天用记事本这样的工具也会有所得。所以总结的一句话：<strong>在时间这个维度上，只要坚持的时间够长，方法都可以忽略不计。</strong></p>
+<h3 id="个人管理工具："><a href="#个人管理工具：" class="headerlink" title="个人管理工具："></a>个人管理工具：</h3><ol>
+<li><p><strong>IOS 提醒事项</strong>：对于不确定日期的事件，全部记录该软件中维护。且维护的都是事件事项，而不是日程。就比如下周三游泳，要带泳裤，就是一个提醒事项。</p>
+</li>
+<li><p><strong>番茄土豆（跨平台）</strong>：专注于工作管理使用，番茄工作法较契合应用。每日维护今日待办（置顶），待办事项，区别于提醒事项，它是一个to do list收集筐，将所有的to do list 按计划排出3日或1周的日程安排进入日历中。然后开始专注工作。当然如果规划能力较弱，可以每天早上或前一天晚上安排当天或明天的日程。</p>
+</li>
+<li><p><strong>IOS 原生日历</strong>：以前一直使用google的所有服务，尤其是日历非常强大，自从google被墙后，坚持翻墙使用了1年，但严重影响效率，无奈只能忍痛进行迁移。将google日历全部导出至苹果icloud日历，也非常方便。在windows平台也可以登录icloud账户维护和管理日历。日历主要用于记录<strong>确定时间的日程</strong>，比如下周三15点我要去游泳，就是一个日程。</p>
+</li>
+</ol>
+<h3 id="阅读工具："><a href="#阅读工具：" class="headerlink" title="阅读工具："></a>阅读工具：</h3><ol>
+<li><p><strong>Kindle＋Kindle Mate</strong>：管理导出kindle的摘抄和笔记。再配合印象笔记整理。</p>
+</li>
+<li><p><strong>知乎电子书＋备忘录</strong>：知乎电子书其实也能用kindle看，不过有时候有些电子书的打折券，或者kindle不在身边，用碎片化的时间用手机看看知乎电子书。</p>
+</li>
+</ol>
+<h3 id="写作工具："><a href="#写作工具：" class="headerlink" title="写作工具："></a>写作工具：</h3><ol>
+<li>Mac OS X：Mweb(markdown)+印象笔记发布功能 （这个软件非常棒，而且是国人开发，对于中文支持很好）</li>
+<li>Windows：Typora（免费beta版本） ＋ 印象笔记（复制黏贴）  </li>
+<li>Hexo静态博客环境：用以发布文章至个人博客（github page）</li>
+<li><del>Atom＋markdown插件：已舍弃，毕竟是一个文本编辑器，插件使用太多有卡顿情况</del></li>
+<li><del>sublime text3＋markdown preview：已舍弃，文件管理中文支持有bug</del></li>
+</ol>
+<h3 id="文件同步："><a href="#文件同步：" class="headerlink" title="文件同步："></a>文件同步：</h3><p><strong>Onedrive</strong>：</p>
+<p>用于onenote笔记的备份与同步。微软的服务器在国内不太稳定，跨平台同步不建议使用。</p>
+<p><strong>iCloud drive</strong>：</p>
+<p>因为经常需要在MAC和Windows上来回切换工作，所以使用icloud Drive用于苹果设备与windows设备跨平台数据使用与备份（在windows上下载icloud for windows即可），所有的输出文章，整理的碎片化信息都会同步到iCloud Drive上，同步速度也不错。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/个人管理/" rel="tag"># 个人管理</a>
+          
+            <a href="/tags/知识管理/" rel="tag"># 知识管理</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/20/番茄工作法图解读书笔记/" rel="next" title="“番茄工作法图解”读书笔记">
+                <i class="fa fa-chevron-left"></i> “番茄工作法图解”读书笔记
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/12/06/我的个人知识管理体系/"
+           data-title="我的知识管理及个人管理框架体系" data-url="http://yoursite.com/2017/12/06/我的个人知识管理体系/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.jpg"
+               alt="转" />
+          <p class="site-author-name" itemprop="name">转</p>
+          <p class="site-description motion-element" itemprop="description">多看书，多点兴趣爱好，多和别人交朋友</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#知识管理"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x77E5;&#x8BC6;&#x7BA1;&#x7406;" class="headerlink" title="&#x77E5;&#x8BC6;&#x7BA1;&#x7406;"></a>&#x77E5;&#x8BC6;&#x7BA1;&#x7406;</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#信息来源（Inbox）"><span class="nav-number">1.1.</span> <span class="nav-text"><a href="#&#x4FE1;&#x606F;&#x6765;&#x6E90;&#xFF08;Inbox&#xFF09;" class="headerlink" title="&#x4FE1;&#x606F;&#x6765;&#x6E90;&#xFF08;Inbox&#xFF09;"></a>&#x4FE1;&#x606F;&#x6765;&#x6E90;&#xFF08;Inbox&#xFF09;</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-碎片化信息"><span class="nav-number">1.1.1.</span> <span class="nav-text"><a href="#1-&#x788E;&#x7247;&#x5316;&#x4FE1;&#x606F;" class="headerlink" title="1. &#x788E;&#x7247;&#x5316;&#x4FE1;&#x606F;"></a>1. &#x788E;&#x7247;&#x5316;&#x4FE1;&#x606F;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-完整系统学习"><span class="nav-number">1.1.2.</span> <span class="nav-text"><a href="#2-&#x5B8C;&#x6574;&#x7CFB;&#x7EDF;&#x5B66;&#x4E60;" class="headerlink" title="2. &#x5B8C;&#x6574;&#x7CFB;&#x7EDF;&#x5B66;&#x4E60;"></a>2. &#x5B8C;&#x6574;&#x7CFB;&#x7EDF;&#x5B66;&#x4E60;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#信息处理（Process）"><span class="nav-number">1.2.</span> <span class="nav-text"><a href="#&#x4FE1;&#x606F;&#x5904;&#x7406;&#xFF08;Process&#xFF09;" class="headerlink" title="&#x4FE1;&#x606F;&#x5904;&#x7406;&#xFF08;Process&#xFF09;"></a>&#x4FE1;&#x606F;&#x5904;&#x7406;&#xFF08;Process&#xFF09;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#知识输出（Output）"><span class="nav-number">1.3.</span> <span class="nav-text"><a href="#&#x77E5;&#x8BC6;&#x8F93;&#x51FA;&#xFF08;Output&#xFF09;" class="headerlink" title="&#x77E5;&#x8BC6;&#x8F93;&#x51FA;&#xFF08;Output&#xFF09;"></a>&#x77E5;&#x8BC6;&#x8F93;&#x51FA;&#xFF08;Output&#xFF09;</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我的效率工具"><span class="nav-number">2.</span> <span class="nav-text"><a href="#&#x6211;&#x7684;&#x6548;&#x7387;&#x5DE5;&#x5177;" class="headerlink" title="&#x6211;&#x7684;&#x6548;&#x7387;&#x5DE5;&#x5177;"></a>&#x6211;&#x7684;&#x6548;&#x7387;&#x5DE5;&#x5177;</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#个人管理工具："><span class="nav-number">2.1.</span> <span class="nav-text"><a href="#&#x4E2A;&#x4EBA;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF1A;" class="headerlink" title="&#x4E2A;&#x4EBA;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF1A;"></a>&#x4E2A;&#x4EBA;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF1A;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#阅读工具："><span class="nav-number">2.2.</span> <span class="nav-text"><a href="#&#x9605;&#x8BFB;&#x5DE5;&#x5177;&#xFF1A;" class="headerlink" title="&#x9605;&#x8BFB;&#x5DE5;&#x5177;&#xFF1A;"></a>&#x9605;&#x8BFB;&#x5DE5;&#x5177;&#xFF1A;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#写作工具："><span class="nav-number">2.3.</span> <span class="nav-text"><a href="#&#x5199;&#x4F5C;&#x5DE5;&#x5177;&#xFF1A;" class="headerlink" title="&#x5199;&#x4F5C;&#x5DE5;&#x5177;&#xFF1A;"></a>&#x5199;&#x4F5C;&#x5DE5;&#x5177;&#xFF1A;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文件同步："><span class="nav-number">2.4.</span> <span class="nav-text"><a href="#&#x6587;&#x4EF6;&#x540C;&#x6B65;&#xFF1A;" class="headerlink" title="&#x6587;&#x4EF6;&#x540C;&#x6B65;&#xFF1A;"></a>&#x6587;&#x4EF6;&#x540C;&#x6B65;&#xFF1A;</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">转</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"zhuyinan"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
